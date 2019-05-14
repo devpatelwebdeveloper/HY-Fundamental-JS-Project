@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Widget Builder</title>
+  </head>
+  <body>
+    <div class="row widgetForm paddingOnSide">
+      <div class="col-8 col-offset-2">
+        <h2 class="text-center">Form</h2>
+        <form>
+          <select id="logoSelector" name="logoSelector">
+            <option value="">Select Top Logo Image</option>
+          </select>
+          <textarea
+            id="partnerCopy"
+            name="message"
+            rows="10"
+            cols="30"
+            placeholder="Describe yourself here..."
+          ></textarea>
+          <select
+            class="imgCarouselSelect"
+            id="testId"
+            multiple="multiple"
+          ></select>
+          <input
+            class=""
+            type="text"
+            id="contentblurb"
+            placeholder="Copy under the image"
+          />
+          <input
+            type="checkbox"
+            name="codeWidgetCheck"
+            value="codeWidgetCheck"
+            id="codeWidgetCheck"
+          />Add Code Widget
+          <input
+            type="checkbox"
+            name="websiteWidgetCheck"
+            value="websiteWidgetCheck"
+            id="websiteWidgetCheck"
+          />Add Website Widget
+          <div class="col-12">
+            <input type="submit" value="Create Widget" id="submitButton" />
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="row widgetArea hide">
+      <div class="col-8 col-offset-2">
+        <h2 class="text-center">Final Version</h2>
+        <div class="row">
+          <div class="col-12 logoSelected">
+            <!-- Logo Image -->
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-8 col-offset-2">
+            <!-- Paragraph of partnership -->
+            <p class="partnerCopy text-center"></p>
+          </div>
+        </div>
+        <div class="row">
+          <div id="singleImage" class="hide"></div>
+          <div id="slider" class="hide">
+            <a class="control_next"
+              ><i class="fas fa-arrow-circle-right fa-2x"></i
+            ></a>
+            <a class="control_prev"
+              ><i class="fas fa-arrow-circle-left fa-2x"></i
+            ></a>
+            <ul></ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-8 col-offset-2">
+            <!-- Paragraph text-->
+            <h4 class="contentblurb text-center"></h4>
+          </div>
+        </div>
+        <div class="row singleWidget hide">
+          <div class="col-8 col-offset-2 widget"></div>
+        </div>
+        <!-- Multiple Widget Row -->
+        <div class="row multipleWidget hide">
+          <div class="col-6 col-offset-2">
+            <span id="havecode"></span>
+            <span id="donthavecode" class="hide"></span>
+          </div>
+          <div class="col-2">
+            <a class="toggleWidget ">Don't have code?</a>
+          </div>
+        </div>
+        <!-- Multiple Row End-->
+      </div>
+    </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+    <script src="app.js"></script>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"
+    ></script>
+  </body>
+</html>
