@@ -1,1 +1,1 @@
-# HackerYou Fundamental JAvascript Project
+# HackerYou Fundamental Javascript Project
