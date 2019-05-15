@@ -24,7 +24,7 @@
 
   <details>
 <summary>Default Widget EVERYTHING OR SOMETHING IS MISSING</summary>
-- Default Logo Gets added.  
+- Default DP Logo Gets added.  
 - Default Story gets added.  
 - Default no Carousel .gif Image will be selected.  
 - Default Title for the widget will be added.  
