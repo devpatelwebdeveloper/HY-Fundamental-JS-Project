@@ -1,6 +1,6 @@
 # HackerYou Fundamental Javascript Project
 
-## This is the project to create the widget for the Charity and its financial Partners
+## This is the project to create the widget for the Company A and its financial Partners
 
 ### Intially you :
 
