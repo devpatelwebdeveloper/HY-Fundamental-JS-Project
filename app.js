@@ -85,7 +85,9 @@ const defaultContent = {
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non convallis tellus. Proin volutpat augue a elementum accumsan. Maecenas eu magna eget orci bibendum viverra. Nulla sit amet rutrum nulla. Suspendisse sit amet iaculis tellus. Mauris quis dictum quam. Sed malesuada at erat sed suscipit.",
   defaultBanner: "images/defaultBannerForFun.gif",
   bannerTitle: "Found no banner! Shocking!!",
-  defaultContentBlurb: "Default Title"
+  defaultContentBlurb: "Because you are too lazy to add the title to widget",
+  defaultNoWidgettitle: "You selected no Widget",
+  defaultNoWidget: `images/nowidget.gif`
 };
 $(function() {
   /*TOGGLE Between the Widget When both the checkmarks Selected*/
@@ -278,31 +280,27 @@ $(function() {
         $(".multipleWidget").removeClass("hide");
         $("#havecode").append(codeWidgetFrame);
         $("#donthavecode").append(websiteWidgetFrame);
-        //console.log(`Code and Country Widget checked`);
       } else if (resultString === "codeWidgetCheck") {
         // Just the Code Widget Selected
         $(".singleWidget").removeClass("hide");
         $(".widget").append(codeWidgetFrame);
-        //console.log(`Code Widget checked`);
       } else if (resultString === "websiteWidgetCheck") {
         // Just the Web Widget Selected
         $(".singleWidget").removeClass("hide");
         $(".widget").append(websiteWidgetFrame);
-        //$("#websiteWidgetArea").removeClass("hide");
-        //console.log(`Country Widget checked`);
       }
     } else {
       // NO CHECK BOX SELECTED
-      console.log(`No widget selected`);
-      //console.log(resultString);
+      $(".singleWidget").removeClass("hide");
+      $(".contentblurb").text(defaultContent.defaultNoWidgettitle);
+      $(".widget").append(
+        `<img src="${
+          defaultContent.defaultNoWidget
+        }" class="img-responsive centered"/>
+        <p class="warning text-center">The best practice is to add atleaset one widget.</p>`
+      );
     }
     $('input:checkbox[id="websiteWidgetCheck"]:checked').each(function() {
-      //Select 2 Style
-      // $(
-      //   ".webWidget .select2 .select2-container .select2-container--default .select2-container--below .select2-container--focus [style]"
-      // ).css({ ["width"]: "calc(100% - 36px) !important" });
-      //Select 2 Style End
-      //alert($(this).attr("id"));
       $(".webWidget").select2({
         placeholder: "Select Website"
       });

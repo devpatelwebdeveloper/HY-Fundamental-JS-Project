@@ -21,10 +21,12 @@
 body {
   font-family: "flamaBook";
   color: #555555;
-  font-weight: normal;
-  font-style: normal;
   font-size: 16px;
   letter-spacing: 0.38px;
+  min-height: 100vh;
+  background: #f6f7f9;
+  padding-top: 50px;
+  font-size: 1.6rem;
 }
 h1,
 h2,
@@ -38,14 +40,6 @@ h6 {
   letter-spacing: 0.1;
 }
 
-body {
-  color: #000;
-  font-family: "Open Sans", sans-serif;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 1.6;
-  margin: 0px;
-}
 h1 {
   font-size: 75px;
   font-weight: 700;
@@ -166,11 +160,16 @@ p {
 textarea,
 select {
   width: 100%;
-  padding: 5px;
+  /* padding: 5px; */
   margin: 8px 0;
   display: inline-block;
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
   border-radius: 4px;
+  font-size: 0.8rem;
+  padding: 12px 15px;
+  color: #e44d48;
+  border: 1px solid #e44d48;
+  font-weight: bold;
 }
 input[type="submit"] {
   width: 25%;
@@ -337,6 +336,13 @@ a.control_next {
 
 .hide {
   display: none;
+}
+.warning {
+  color: #ff0000;
+}
+
+.contentblurb {
+  margin: 25px;
 }
 
 @media only screen and (max-width: 768px) {
