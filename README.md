@@ -28,4 +28,10 @@
 * Default no Carousel .gif Image will be selected.
 * Default Title for the widget will be added.
 * Default no Widget .gif Image will be selected.
-</details>
+
+- Select the logo from the dropdown menu
+- Add the story for the widget
+- Select the Image(s) for the Carousel
+- Add the title for the widget
+- Select the widget
+  </details>
