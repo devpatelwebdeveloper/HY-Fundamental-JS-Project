@@ -22,7 +22,7 @@
 - If *BOTH* widgets are selected, It adds a toggle for the widgets.
   </details>
 
-<details>
+  <details>
 <summary>Default Widget EVERYTHING OR SOMETHING IS MISSING</summary>
 - Default Logo Gets added.
 - Default Story gets added.
