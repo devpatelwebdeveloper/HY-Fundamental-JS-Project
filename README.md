@@ -14,18 +14,16 @@
 
 <details>
 <summary>Everything selected PROPERLY</summary>
-
 - Logo Gets added.
 - Story gets added.
 - If single image is selected, Static image will be added. If multiple Images are selected, Carousel will be added.
 - Title for the widget will be added.
-- If _ONLY_ Code or Website widget is selected, It adds single selected widget.
-- If _BOTH_ widgets are selected, It adds a toggle for the widgets.
-
+- If *ONLY* Code or Website widget is selected, It adds single selected widget.
+- If *BOTH* widgets are selected, It adds a toggle for the widgets.
   </details>
-  <details>
-  <summary>Default Widget EVERYTHING OR SOMETHING IS MISSING</summary>
 
+<details>
+<summary>Default Widget EVERYTHING OR SOMETHING IS MISSING</summary>
 - Default Logo Gets added.
 - Default Story gets added.
 - Default no Carousel .gif Image will be selected.
