@@ -296,7 +296,7 @@ $(function() {
       $(".widget").append(
         `<img src="${
           defaultContent.defaultNoWidget
-        }" class="img-responsive centered"/>
+        }" alt="Widget Missing" title="Widget Missing" class="img-responsive centered"/>
         <p class="warning text-center">The best practice is to add atleaset one widget.</p>`
       );
     }
