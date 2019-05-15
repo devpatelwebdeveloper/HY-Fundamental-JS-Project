@@ -12,7 +12,7 @@
 
 ### Result:
 
-<detail>
+<details>
 <summary>Everything selected PROPERLY</summary>
 - Logo Gets added.
 - Story gets added.
@@ -20,12 +20,12 @@
 - Title for the widget will be added.
 - If *ONLY* Code or Website widget is selected, It adds single selected widget.
 - If *BOTH* widgets are selected, It adds a toggle for the widgets.
-</detail>
-<detail>
+</details>
+<details>
 <summary>Default Widget *EVERYTHING OR SOMETHING IS MISSING*</summary>
 - Default Logo Gets added.
 - Default Story gets added.
 - Default no Carousel .gif Image will be selected.
 - Default Title for the widget will be added.
 - Default no Widget .gif Image will be selected.
-</detail>
+</details>
