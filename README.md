@@ -28,3 +28,10 @@
 - Default no Carousel .gif Image will be selected.
 - Default Title for the widget will be added.
 - Default no Widget .gif Image will be selected.
+
+### NOTES:
+
+Using Outside JS Called Select2 for:
+
+- Multiple Image Selector
+- Search within dropdown
