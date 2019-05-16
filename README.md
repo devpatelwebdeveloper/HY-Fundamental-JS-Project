@@ -35,3 +35,5 @@ Using Outside JS Called Select2 (https://select2.org/) for:
 
 - Multiple Image Selector
 - Search within dropdown
+
+**PLEASE NOTE NOT WORKED ON CSS**
